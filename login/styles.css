@@ -1,0 +1,149 @@
+/* Estilos Globais */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Arimo', sans-serif;
+    background-color: white;
+}
+
+.container {
+    width: 100%;
+    height: 100%;
+    position: relative;
+    background: white;
+}
+
+.background-gradient {
+    width: 800px;
+    height: 1024px;
+    position: absolute;
+    background: linear-gradient(180deg, white 0%, #DFE6EC 47%, #003566 100%);
+}
+
+.main-image {
+    width: 500px;
+    height: auto;
+    position: absolute;
+    left: 150px;
+    top: 284px;
+}
+
+.main-text {
+    width: 557px;
+    text-align: center;
+    color: white;
+    font-size: 24px;
+    position: absolute;
+    left: 122px;
+    top: 667px;
+    font-weight: 400;
+    word-wrap: break-word;
+}
+
+.login-section {
+    width: 545px;
+    position: absolute;
+    left: 849px;
+    top: 162px;
+}
+
+.login-logo {
+    width: 300px;
+    height: auto;
+    position: absolute;
+    left: 113px;
+    top: 0;
+}
+
+.login-title {
+    text-align: center;
+    color: #003566;
+    font-size: 36px;
+    font-weight: 700;
+    position: absolute;
+    left: 124px;
+    top: 117px;
+}
+
+.login-form {
+    width: 545px;
+    position: absolute;
+    top: 237px;
+}
+
+.input-group {
+    margin-bottom: 20px;
+    position: relative;
+}
+
+.input-label {
+    color: black;
+    font-size: 12px;
+    position: absolute;
+    top: -18px;
+    left: 20px;
+    background: white;
+    padding: 0 5px;
+}
+
+.input-field {
+    width: 100%;
+    height: 40px;
+    padding: 10px;
+    border-radius: 7px;
+    border: 2px solid rgba(0, 0, 0, 0.37);
+    font-size: 16px;
+    box-sizing: border-box;
+}
+
+.login-actions {
+    width: 545px;
+    position: absolute;
+    top: 549px;
+    text-align: center;
+}
+
+.login-button {
+    width: 100%;
+    height: 40px;
+    background-color: #003566;
+    color: white;
+    border: none;
+    border-radius: 7px;
+    font-size: 18px;
+    font-weight: 700;
+    margin-bottom: 15px;
+    cursor: pointer;
+}
+
+.register, .forgot-password {
+    color: #003566;
+    font-size: 15px;
+    font-weight: 400;
+    margin-top: 10px;
+    cursor: pointer;
+}
+
+.forgot-password {
+    font-size: 14px;
+    float: right;
+}
+
+.decorative-element {
+    background: #CCCCCC;
+    position: absolute;
+}
+
+.element-1 {
+    width: 30px;
+    height: 24px;
+    left: 1341px;
+    top: 527px;
+}
+
+.element-2 {
+    width: 25px;
+    height: 25px;
+    left: 1341px;
+    top: 426px;
+}
