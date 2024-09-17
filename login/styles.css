@@ -147,3 +147,108 @@ body {
     left: 1341px;
     top: 426px;
 }
+/* Media Queries para Responsividade */
+
+/* Para tablets e telas menores */
+@media (max-width: 1024px) {
+    .background-gradient {
+        width: 100%;
+        height: auto;
+        position: static; /* Ajusta para remover a posição absoluta */
+    }
+
+    .main-image {
+        width: 70%;
+        left: 50%;
+        top: 200px;
+        transform: translateX(-50%);
+    }
+
+    .main-text {
+        width: 80%;
+        left: 50%;
+        top: 60%;
+        transform: translateX(-50%);
+        font-size: 20px;
+    }
+
+    .login-section {
+        width: 80%;
+        left: 50%;
+        top: 500px;
+        transform: translateX(-50%);
+    }
+
+    .login-logo {
+        width: 200px;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+
+    .login-title {
+        font-size: 28px;
+        left: 50%;
+        transform: translateX(-50%);
+        top: 150px;
+    }
+
+    .login-form {
+        width: 100%;
+        padding: 0 10px;
+        position: relative; /* Remove a posição absoluta */
+        top: 250px;
+    }
+
+    .login-actions {
+        width: 100%;
+        position: relative;
+        top: 20px;
+    }
+
+    .element-1, .element-2 {
+        display: none; /* Oculta elementos decorativos em telas menores */
+    }
+}
+
+/* Para telas de celular */
+@media (max-width: 768px) {
+    .main-image {
+        width: 60%;
+        top: 150px;
+    }
+
+    .main-text {
+        font-size: 18px;
+        width: 90%;
+        top: 70%;
+    }
+
+    .login-section {
+        width: 95%;
+        top: 400px;
+    }
+
+    .login-logo {
+        width: 180px;
+    }
+
+    .login-title {
+       display: none;
+    }
+
+    .register, .forgot-password {
+        font-size: 14px;
+        display: block;
+        text-align: center;
+    }
+
+    .forgot-password {
+        float: none;
+        margin-top: 10px;
+    }
+
+    .decorative-element {
+        display: none; /* Oculta elementos decorativos em telas menores */
+    }
+}
+
